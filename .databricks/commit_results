@@ -1,0 +1,9 @@
+# commit results should ignore comments
+
+# commit all ipynb notebook results
+*.ipynb
+
+# ignoring text file should be no op
+!folder_a/untitled.txt
+# should strip result from folder_a_notebook_2
+!folder_a/folder_a_notebook_2.ipynb
